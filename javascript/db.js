@@ -13,4 +13,4 @@ const { createTables } = require("./makeTable.js");
                 console.log("oops", err);
             })
     });
-}());
+}()); 
